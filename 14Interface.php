@@ -9,6 +9,8 @@ function garis()
     echo "<hr>";
 }
 
+// MEMBUAT INTERFACE
+// SETIAP CHIL YANG IMPLEMENTS KE INTERFACE INI HARUS MENULISKAN "SEMUA" METHOD YANG TERSEDIA
 interface InfoProduk
 {
     public function getInfoProduk();
